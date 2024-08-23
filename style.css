@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#main{
+
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#nav{
+    font-size: 1.5vw;
+    padding: 15px;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+     align-items: center;
+     justify-content: end;
+     gap: 2vw;
+}
+#nav i {
+    border-radius: 50%;
+    padding: .7vw;
+    background-color:black;
+    color: white;
+}
+#upper_middele{
+    width: fit-content;
+    padding-left: 5vw;
+    height: 17vw;
+    /* background-color:lightseagreen; */
+}
+#upper_middele h1{
+    font-size:4vw;
+    font-weight: 600;
+}
+#center{
+    padding-top: 2vw;
+    height: fit-content;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+}
+.left{
+    height: 100px;
+    width: 30%;
+    font-weight: 700;
+}
+.right{
+        height: 11vw;
+        width: 30%;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        
+}
+.right h3{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1vw;
+    border-top: 2px solid black;
+}
+
+.right h3 i {
+    opacity: 0;
+}
+
+
+.right h3:hover i{
+    
+    opacity: 1;
+    color: white;
+}
+.right h3:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #000000e3;
+    
+}
+#last{
+    height: 500px;
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+#last img{
+    height: 100%;
+    width: 100%;
+    
+}
